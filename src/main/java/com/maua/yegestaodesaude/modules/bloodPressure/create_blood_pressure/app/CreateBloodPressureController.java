@@ -19,7 +19,7 @@ import jakarta.servlet.http.HttpServletRequest;
 
 @RestController
 @RequestMapping("/blood-pressure")
-@Tag(name = "Blood Pressure") //tt
+@Tag(name = "Blood Pressure")
 public class CreateBloodPressureController {
     
     @Autowired
